@@ -1,0 +1,383 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+img{
+  max-width: 100%;
+}
+
+.outer-wraper-one{
+  width: 100%;
+  background-color: black;
+  position: fixed;
+}
+
+.navigator-wraper ul{
+  display: flex;
+  justify-content: space-between;
+  max-width:80%;
+  /* min-width: 640px; */
+  margin: 0 auto;
+  padding: 18px 14px 4px 14px;
+}
+.navigator-wraper {
+  width: 100%;
+}
+.navigator-wraper ul li{
+  opacity: .5;
+  }
+.navigator-wraper ul li:hover{
+      opacity: 1;;
+      transition: color 5s, opacity 1s;
+    }
+
+.navigator-wraper ul li a {
+  text-decoration:none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.apple-logo ,.cart ,.search{
+    display: flex;
+    width: 18px;
+    height: 18px;
+  }
+.inner-wraper-two{
+  background-color: #fafafa;
+  text-align: center;
+}
+.small-title{
+  font-size: .85em;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0 12px;
+}
+.h1{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.h2{
+    font-size: 40px;
+    padding-bottom: 12px;
+}
+.learn, .buy{
+  padding: 0 8px 8px 8px;
+
+}
+.learnbuy{
+  display: flex;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: blue;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+
+.macbro{
+  width: 710px;
+  margin: 0 auto;
+}
+
+.outer-wraper-three{
+
+background-color: black;
+
+}
+.inner-wraper-three{
+  color: white;
+  text-align: center;
+padding-top: 40px;
+
+}
+
+.ip{
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.pro{
+  font-size: 40px;
+  padding-bottom: 12px;
+}
+
+.price{
+  font-size: 18px;
+color: #86868b;; padding-bottom: 0;
+}
+
+.outer-wraper-three{
+  background-image: url(./Images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+ background-position: center;
+ background-size: cover;
+}
+
+.inner-wraper-four{
+  background-image: url(./Images/home/iphone11-bg.jpg);
+  text-align: center;
+  height: 580px;
+background-position: center;
+background-size: cover;}
+
+.inner-wraper-four{
+text-align: center;
+
+}
+
+.ip11{
+  font-size:50px ;
+  font-weight: bold;
+  padding:20px 0 12px 0 ;
+}
+
+.amount{
+font-size: 34px;
+padding-bottom: 12px
+}
+
+.trade-in{
+font-size: 20px;
+padding-bottom: 12px;
+font-weight: lighter;
+}
+
+
+.outer-wraper-five{
+  display: flex;
+}
+
+.inner-left-wraper{
+  background-image:url(./Images/home/watch-series-5.jpg);
+
+}
+.inner-left-wraper{
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 1% 0.5% 0% 1%;
+padding-top: 54px;
+text-align: center;
+width: 48.5%;
+height: 580px;}
+.inner-right-wraper{
+background-image:url(./Images/home/apple-card.jpg);
+}
+.inner-right-wraper{
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+  text-align: center;
+  width: 48.5%;
+  height: 580px;
+}
+.watch-description, .card-description{
+  font-size: 22px;
+  margin-top: 12px;
+  margin-top: 12px;
+}
+.watch, .card{
+  margin-bottom: 12px;
+}
+
+
+.outer-wraper-six{
+  display: flex;
+  justify-content: space-between;
+  margin: 1px 5px 0 1px;
+}
+.left-wraper-six{
+  background-image: url(./Images/home/apple-tv-background.jpg);
+
+}
+
+.left-wraper-six{
+  width: 48.5%;
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 30px;
+  
+  margin: 1% 0.5% 0% 1%;
+}
+.servant{
+  width: 100%;
+  
+}
+.right-wraper-six{
+background-image: url(./Images/home/air-pods.jpg);
+
+}
+.right-wraper-six{
+  width: 48.5%;
+  height: 580px;
+  background-position: bottom;
+  background-size: initial;
+  background-repeat:no-repeat;
+  text-align: center;
+  margin: 1% 0.5% 0% 1%;
+  background-color: black;
+  color: white;
+padding-bottom: 30px;  
+}
+
+.tv{
+  margin-top: 50px;
+}
+.shyamala{
+  font-size: 20px;
+  padding: 180px 0;
+}
+.right-wraper-six h1{
+  padding-top: 30px;
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+.right-wraper-six h2{
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+
+.trailer a::after{
+  font-family: "fontawesome";
+  content: "\f144";
+  padding-left: 14px;
+}
+  .trailer a{
+    text-decoration: none;
+    font-size: 18px;
+    /* font-weight: 900; */
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.outer-wraper-seven{
+display: flex;
+justify-content: space-between;
+
+}
+.left-wraper-seven{
+ background-image: url(./Images/home/macbook-pro.jpg);
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fafafa;;
+}
+.left-wraper-seven{
+  width: 48.5%;
+  height: 580px;
+  margin: 1% 0.5% 0 1%;
+  text-align: center;
+  padding-top: 54px;
+}
+.left-wrap-seven-description h1{
+  font-size: 50px;
+
+}
+.left-wrap-seven-description h4{
+  font-size: 20px;
+
+}
+.right-wraper-seven{
+  background-image: url(./Images/home/new-ipad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-wraper-seven{
+  width: 48.5%;
+  height: 580px;
+  margin: 1% 0.5% 0 1%;
+  text-align: center;
+  padding-top: 50px;
+}
+.right-wraper-seven{
+  font-size: 18px;
+}
+
+.outer-wraper-footer{
+  background-color: #f5f5f7;
+  
+}
+
+.paragraph-wraper {
+  width: 980px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 20px;
+}
+.paragraph-wraper p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+ 
+}
+.inner-footer-wraper {
+  width: 980px;
+  margin: 0 auto;
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.inner-footer-wraper li{
+text-decoration: none;
+list-style: none;
+line-height: 24px;
+}
+.inner-footer-wraper li:hover{
+  text-decoration:underline;
+  }
+.title{
+  margin-top: 10px;
+}
+
+
+
+.bottom-footer-one{
+  width: 980px;
+  margin:0 auto;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d2d2d7;
+font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+.bottom-footer-two{
+  width: 980px;
+  margin: 10px auto;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+ 
+}
+
+.privacy, .us {
+  display: flex;
+  margin: 0 0 0 30px ;
+  text-decoration: none;
+  list-style: none;} 
+
+.bottom-footer-two ul li a {
+ padding: 10px 10px 0 0;
+
+}
+
+
+
+
+
+
+
+
